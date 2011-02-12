@@ -1,0 +1,30 @@
+
+<body>
+<div class="container">
+<% if notice %>
+<p id="notice" ><%= notice %></p>
+<% end %>
+
+<div class="center">
+					<div class="header">
+						<span class="lbl title">Product Catalog</span>
+					</div>
+</div>
+<div class="center">
+<span class="lbl">
+<span class="store">
+<% @products.each do |product| %>
+<div class="entry" >
+<%= image_tag(product.image_url, :height => '70', :width => '70') %>
+<h3><%= product.title %></h3>
+<%=sanitize product.description %>
+<div class="price_line" >
+<span class="price" ><%= product.price %></span>
+</div>
+</div>
+<% end %>
+</span>
+</span>
+</div>
+</div>
+</body>

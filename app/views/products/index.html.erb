@@ -1,0 +1,48 @@
+
+	<body>
+		<div class="container">
+			<div class="top">
+			</div>
+				<div class="center">
+					<div class="header">
+						<span class="lbl title">Product Listing</span>
+					</div>
+				</div>
+				<div class="center">
+				<span class="lbl">
+				<table class="list">
+						<tr>
+							<th>Title</th>
+							<th>Description</th>
+							<th>Image</th>
+							<th>Price</th>
+							<th>Created at</th>
+							<th>Updated at</th>
+							<th></th>
+						</tr>
+					<% @products.each do |product| %>
+			
+							
+						<tr>
+							<td><%= product.title %></td>
+							<td><%= product.description %></td>
+							<td><img src="images/<%= product.image_url %>" alt="No Image" height="70" width="70" /></td>
+							<td>$<%= product.price %></td>
+							<td><%= product.created_at %></td>
+							<td><%= product.updated_at %></td>
+							<td>
+								<%= link_to 'Show', product %>
+								<%= link_to 'Edit', edit_product_path(product) %>
+								<%= link_to 'Destroy', product, :confirm => 'Are you sure?', :method => :delete %>
+							</td>
+						</tr>
+				
+					<% end %>
+				</table>
+			<%= link_to 'New Product', new_product_path %>
+			</span>
+			</div>
+			<div class="bottom">
+			</div>
+		</div>
+	</body>

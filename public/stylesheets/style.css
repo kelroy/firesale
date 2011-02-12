@@ -1,0 +1,53 @@
+/*
+Syntax error: Invalid CSS after "@import "compass"": expected selector or at-rule, was "@import "compas..."
+        on line 2 of C:/Users/Operator/Documents/NetBeansProjects/firesale/app/stylesheets/style.scss
+
+1: C:/Users/Operator/Documents/NetBeansProjects/firesale/app/stylesheets/style.scss
+
+Backtrace:
+C:/Users/Operator/Documents/NetBeansProjects/firesale/app/stylesheets/style.scss:2
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/lib/sass/scss/parser.rb:838:in `expected'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/lib/sass/scss/parser.rb:813:in `expected'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/lib/sass/scss/parser.rb:27:in `parse'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/lib/sass/engine.rb:213:in `_to_tree'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/lib/sass/engine.rb:197:in `_render'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/lib/sass/engine.rb:169:in `render'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/lib/haml/util.rb:294:in `silence_haml_warnings'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/lib/sass/engine.rb:169:in `render'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/compass-0.10.6/lib/compass/compiler.rb:103:in `compile'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/compass-0.10.6/lib/compass/logger.rb:43:in `red'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/compass-0.10.6/lib/compass/compiler.rb:102:in `compile'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/compass-0.10.6/lib/compass/compiler.rb:93:in `compile_if_required'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/compass-0.10.6/lib/compass/compiler.rb:84:in `run'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/compass-0.10.6/lib/compass/compiler.rb:82:in `each'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/compass-0.10.6/lib/compass/compiler.rb:82:in `run'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/compass-0.10.6/lib/compass/commands/watch_project.rb:92:in `recompile'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/compass-0.10.6/lib/compass/commands/watch_project.rb:4:in `to_proc'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/vendor/fssm/lib/fssm/path.rb:71:in `call'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/vendor/fssm/lib/fssm/path.rb:71:in `run_callback'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/vendor/fssm/lib/fssm/path.rb:54:in `callback_action'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/vendor/fssm/lib/fssm/path.rb:30:in `create'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/vendor/fssm/lib/fssm/state/directory.rb:23:in `created'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/vendor/fssm/lib/fssm/state/directory.rb:23:in `each'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/vendor/fssm/lib/fssm/state/directory.rb:23:in `created'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/vendor/fssm/lib/fssm/state/directory.rb:15:in `refresh'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/vendor/fssm/lib/fssm/backends/polling.rb:17:in `run'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/vendor/fssm/lib/fssm/backends/polling.rb:17:in `each'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/vendor/fssm/lib/fssm/backends/polling.rb:17:in `run'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/vendor/fssm/lib/fssm/backends/polling.rb:15:in `loop'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/vendor/fssm/lib/fssm/backends/polling.rb:15:in `run'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/vendor/fssm/lib/fssm/monitor.rb:24:in `run'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/haml-3.0.25/vendor/fssm/lib/fssm.rb:17:in `monitor'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/compass-0.10.6/lib/compass/commands/watch_project.rb:61:in `perform'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/compass-0.10.6/lib/compass/commands/base.rb:18:in `execute'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/compass-0.10.6/lib/compass/commands/project_base.rb:19:in `execute'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/compass-0.10.6/lib/compass/exec/sub_command_ui.rb:38:in `perform!'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/compass-0.10.6/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/gems/compass-0.10.6/bin/compass:26
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/bin/compass:19:in `load'
+C:/Users/Operator/Documents/NetBeansProjects/firesale/compass/ruby/1.8/bin/compass:19
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"@import \"compass\"\": expected selector or at-rule, was \"@import \"compas...\"\A         on line 2 of C:/Users/Operator/Documents/NetBeansProjects/firesale/app/stylesheets/style.scss\A \A 1: C:/Users/Operator/Documents/NetBeansProjects/firesale/app/stylesheets/style.scss"; }
