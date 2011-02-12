@@ -59,20 +59,35 @@ a img {
   border: none;
 }
 
-/* line 4, ../../../app/stylesheets/style.sass */
-body {
-  background-color: #000;
+/* Fonts */
+@font-face {
+  font-family: "CaslonAntique";
+  src: url(/fonts/CaslonAntique.eot);
+  src: local("☺"), url(/fonts/CaslonAntique.woff) format('woff'), url(/fonts/CaslonAntique.ttf) format('truetype'), url(/fonts/CaslonAntique.svg) format('svg');
+}
+
+@font-face {
+  font-family: "CaslonAntique";
+  src: local("☺"), url(/fonts/CaslonAntique.ttf) format('truetype'), url(/fonts/CaslonAntique.otf) format('opentype');
 }
 
 /* line 8, ../../../app/stylesheets/style.sass */
+body {
+  background-color: black;
+  color: #ba55d3;
+  font-family: "CaslonAntique", Times, Times New Roman, Georgia, serif;
+  font-smooth: always;
+}
+
+/* line 15, ../../../app/stylesheets/style.sass */
 div.container {
-  float: right;
+  float: center;
   background-image: url("/images/wood_background.png");
   margin: 0px auto;
   width: 960px;
   height: 1000px;
 }
-/* line 14, ../../../app/stylesheets/style.sass */
+/* line 21, ../../../app/stylesheets/style.sass */
 div.top {
   background-image: url("/images/paper_top.png");
   background-repeat: no-repeat;
@@ -83,7 +98,7 @@ div.top {
   width: 900px;
   height: 100px;
 }
-/* line 23, ../../../app/stylesheets/style.sass */
+/* line 30, ../../../app/stylesheets/style.sass */
 div.bottom {
   background-image: url("/images/paper_bottom.png");
   background-repeat: no-repeat;
@@ -93,7 +108,7 @@ div.bottom {
   width: 900px;
   height: 100px;
 }
-/* line 31, ../../../app/stylesheets/style.sass */
+/* line 38, ../../../app/stylesheets/style.sass */
 div.center {
   background-image: url("/images/paper_middle.png");
   background-size: 100%;
@@ -101,7 +116,7 @@ div.center {
   width: 900px;
   background-repeat: repeat-y;
 }
-/* line 37, ../../../app/stylesheets/style.sass */
+/* line 44, ../../../app/stylesheets/style.sass */
 div.header {
   margin: 0px auto;
   width: 900px;
@@ -109,21 +124,25 @@ div.header {
   font-size: 100px;
 }
 
-/* line 45, ../../../app/stylesheets/style.sass */
+/* line 52, ../../../app/stylesheets/style.sass */
 span.lbl {
   margin: 0px auto;
   text-align: center;
   display: block;
 }
-/* line 49, ../../../app/stylesheets/style.sass */
+/* line 56, ../../../app/stylesheets/style.sass */
 span.data {
   margin: 0px 100px;
   font-size: 0px;
   text-align: center;
   display: inline;
 }
+/* line 61, ../../../app/stylesheets/style.sass */
+span.title {
+  color: #32cd32;
+}
 
-/* line 55, ../../../app/stylesheets/style.sass */
+/* line 64, ../../../app/stylesheets/style.sass */
 table.list {
   margin: 0px auto;
   width: 775px;

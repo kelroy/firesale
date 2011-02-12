@@ -1,12 +1,19 @@
 @import "compass"
 @import "compass/reset"
 
+/* Fonts */
+@include font-face("CaslonAntique", font-files("/fonts/CaslonAntique.woff", woff, "/fonts/CaslonAntique.ttf", truetype, "/fonts/CaslonAntique.svg", svg), "/fonts/CaslonAntique.eot") 
++font-face("CaslonAntique", font-files("/fonts/CaslonAntique.ttf", truetype, "/fonts/CaslonAntique.otf", opentype))
+
 body
   background-color: #000000
+  color: #BA55D3
+  font-family: 'CaslonAntique', Times, Times New Roman, Georgia, serif
+  font-smooth: always
 
 div
   &.container
-    float: right
+    float: center
     background-image: url('/images/wood_background.png')
     margin: 0px auto
     width: 960px
@@ -51,6 +58,8 @@ span
     font-size: 0px
     text-align: center
     display: inline
+  &.title
+    color: #32CD32
 
 table.list
   margin: 0px auto
